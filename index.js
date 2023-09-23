@@ -1,4 +1,4 @@
-const tg = window.Telegram.webApp
+const tg = window.Telegram.WebApp
 
 document.getElementById('p').innerText = `${tg.initDataUnsafe.user.first_name}`
 
